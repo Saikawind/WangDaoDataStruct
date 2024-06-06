@@ -41,6 +41,105 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/OneDrive/Project/DataStruct/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target test3.cpp
+
+
+#############################################
+# Order-only phony target for test3.cpp
+
+build cmake_object_order_depends_target_test3.cpp: phony || CMakeFiles/test3.cpp.dir
+
+build CMakeFiles/test3.cpp.dir/1_index/test3.cpp.obj: CXX_COMPILER__test3.2ecpp_Debug D$:/OneDrive/Project/DataStruct/1_index/test3.cpp || cmake_object_order_depends_target_test3.cpp
+  DEP_FILE = CMakeFiles\test3.cpp.dir\1_index\test3.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++98
+  OBJECT_DIR = CMakeFiles\test3.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\test3.cpp.dir\1_index
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test3.cpp
+
+
+#############################################
+# Link the executable test3.cpp.exe
+
+build test3.cpp.exe: CXX_EXECUTABLE_LINKER__test3.2ecpp_Debug CMakeFiles/test3.cpp.dir/1_index/test3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test3.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test3.cpp.exe
+  TARGET_IMPLIB = libtest3.cpp.dll.a
+  TARGET_PDB = test3.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target List_1.cpp
+
+
+#############################################
+# Order-only phony target for List_1.cpp
+
+build cmake_object_order_depends_target_List_1.cpp: phony || CMakeFiles/List_1.cpp.dir
+
+build CMakeFiles/List_1.cpp.dir/2_LinearList/List_1.cpp.obj: CXX_COMPILER__List_1.2ecpp_Debug D$:/OneDrive/Project/DataStruct/2_LinearList/List_1.cpp || cmake_object_order_depends_target_List_1.cpp
+  DEP_FILE = CMakeFiles\List_1.cpp.dir\2_LinearList\List_1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++98
+  OBJECT_DIR = CMakeFiles\List_1.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\List_1.cpp.dir\2_LinearList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target List_1.cpp
+
+
+#############################################
+# Link the executable List_1.cpp.exe
+
+build List_1.cpp.exe: CXX_EXECUTABLE_LINKER__List_1.2ecpp_Debug CMakeFiles/List_1.cpp.dir/2_LinearList/List_1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\List_1.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = List_1.cpp.exe
+  TARGET_IMPLIB = libList_1.cpp.dll.a
+  TARGET_PDB = List_1.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target List_2.cpp
+
+
+#############################################
+# Order-only phony target for List_2.cpp
+
+build cmake_object_order_depends_target_List_2.cpp: phony || CMakeFiles/List_2.cpp.dir
+
+build CMakeFiles/List_2.cpp.dir/2_LinearList/List_2.cpp.obj: CXX_COMPILER__List_2.2ecpp_Debug D$:/OneDrive/Project/DataStruct/2_LinearList/List_2.cpp || cmake_object_order_depends_target_List_2.cpp
+  DEP_FILE = CMakeFiles\List_2.cpp.dir\2_LinearList\List_2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++98
+  OBJECT_DIR = CMakeFiles\List_2.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\List_2.cpp.dir\2_LinearList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target List_2.cpp
+
+
+#############################################
+# Link the executable List_2.cpp.exe
+
+build List_2.cpp.exe: CXX_EXECUTABLE_LINKER__List_2.2ecpp_Debug CMakeFiles/List_2.cpp.dir/2_LinearList/List_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\List_2.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = List_2.cpp.exe
+  TARGET_IMPLIB = libList_2.cpp.dll.a
+  TARGET_PDB = List_2.cpp.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 2.1.cpp
 
 
@@ -445,9 +544,15 @@ build 5_1.cpp: phony 5_1.cpp.exe
 
 build CMakeCXXCompilerId.cpp: phony CMakeCXXCompilerId.cpp.exe
 
+build List_1.cpp: phony List_1.cpp.exe
+
+build List_2.cpp: phony List_2.cpp.exe
+
 build test.cpp: phony test.cpp.exe
 
 build test2.cpp: phony test2.cpp.exe
+
+build test3.cpp: phony test3.cpp.exe
 
 build test4.cpp: phony test4.cpp.exe
 
@@ -459,7 +564,7 @@ build test4.cpp: phony test4.cpp.exe
 #############################################
 # Folder: D:/OneDrive/Project/DataStruct/cmake-build-debug
 
-build all: phony 2.1.cpp.exe 2.2.cpp.exe 3.3.cpp.exe 3.3_assign.cpp.exe test.cpp.exe 5_1.cpp.exe 3_char.cpp.exe 4_cast.cpp.exe test4.cpp.exe CMakeCXXCompilerId.cpp.exe test2.cpp.exe
+build all: phony test3.cpp.exe List_1.cpp.exe List_2.cpp.exe 2.1.cpp.exe 2.2.cpp.exe 3.3.cpp.exe 3.3_assign.cpp.exe test.cpp.exe 5_1.cpp.exe 3_char.cpp.exe 4_cast.cpp.exe test4.cpp.exe CMakeCXXCompilerId.cpp.exe test2.cpp.exe
 
 # =============================================================================
 # Built-in targets
