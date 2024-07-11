@@ -74,70 +74,202 @@ build test3.cpp.exe: CXX_EXECUTABLE_LINKER__test3.2ecpp_Debug CMakeFiles/test3.c
   TARGET_PDB = test3.cpp.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target List_1.cpp
+# Object build statements for EXECUTABLE target DLInkList.cpp
 
 
 #############################################
-# Order-only phony target for List_1.cpp
+# Order-only phony target for DLInkList.cpp
 
-build cmake_object_order_depends_target_List_1.cpp: phony || CMakeFiles/List_1.cpp.dir
+build cmake_object_order_depends_target_DLInkList.cpp: phony || CMakeFiles/DLInkList.cpp.dir
 
-build CMakeFiles/List_1.cpp.dir/2_LinearList/List_1.cpp.obj: CXX_COMPILER__List_1.2ecpp_Debug D$:/OneDrive/Project/DataStruct/2_LinearList/List_1.cpp || cmake_object_order_depends_target_List_1.cpp
-  DEP_FILE = CMakeFiles\List_1.cpp.dir\2_LinearList\List_1.cpp.obj.d
+build CMakeFiles/DLInkList.cpp.dir/2_LinearList/DLInkList.cpp.obj: CXX_COMPILER__DLInkList.2ecpp_Debug D$:/OneDrive/Project/DataStruct/2_LinearList/DLInkList.cpp || cmake_object_order_depends_target_DLInkList.cpp
+  DEP_FILE = CMakeFiles\DLInkList.cpp.dir\2_LinearList\DLInkList.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++98
-  OBJECT_DIR = CMakeFiles\List_1.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\List_1.cpp.dir\2_LinearList
+  OBJECT_DIR = CMakeFiles\DLInkList.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\DLInkList.cpp.dir\2_LinearList
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target List_1.cpp
+# Link build statements for EXECUTABLE target DLInkList.cpp
 
 
 #############################################
-# Link the executable List_1.cpp.exe
+# Link the executable DLInkList.cpp.exe
 
-build List_1.cpp.exe: CXX_EXECUTABLE_LINKER__List_1.2ecpp_Debug CMakeFiles/List_1.cpp.dir/2_LinearList/List_1.cpp.obj
+build DLInkList.cpp.exe: CXX_EXECUTABLE_LINKER__DLInkList.2ecpp_Debug CMakeFiles/DLInkList.cpp.dir/2_LinearList/DLInkList.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\List_1.cpp.dir
+  OBJECT_DIR = CMakeFiles\DLInkList.cpp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = List_1.cpp.exe
-  TARGET_IMPLIB = libList_1.cpp.dll.a
-  TARGET_PDB = List_1.cpp.exe.dbg
+  TARGET_FILE = DLInkList.cpp.exe
+  TARGET_IMPLIB = libDLInkList.cpp.dll.a
+  TARGET_PDB = DLInkList.cpp.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target List_2.cpp
+# Object build statements for EXECUTABLE target LoopDLinkList.cpp
 
 
 #############################################
-# Order-only phony target for List_2.cpp
+# Order-only phony target for LoopDLinkList.cpp
 
-build cmake_object_order_depends_target_List_2.cpp: phony || CMakeFiles/List_2.cpp.dir
+build cmake_object_order_depends_target_LoopDLinkList.cpp: phony || CMakeFiles/LoopDLinkList.cpp.dir
 
-build CMakeFiles/List_2.cpp.dir/2_LinearList/List_2.cpp.obj: CXX_COMPILER__List_2.2ecpp_Debug D$:/OneDrive/Project/DataStruct/2_LinearList/List_2.cpp || cmake_object_order_depends_target_List_2.cpp
-  DEP_FILE = CMakeFiles\List_2.cpp.dir\2_LinearList\List_2.cpp.obj.d
+build CMakeFiles/LoopDLinkList.cpp.dir/2_LinearList/LoopDLinkList.cpp.obj: CXX_COMPILER__LoopDLinkList.2ecpp_Debug D$:/OneDrive/Project/DataStruct/2_LinearList/LoopDLinkList.cpp || cmake_object_order_depends_target_LoopDLinkList.cpp
+  DEP_FILE = CMakeFiles\LoopDLinkList.cpp.dir\2_LinearList\LoopDLinkList.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++98
-  OBJECT_DIR = CMakeFiles\List_2.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\List_2.cpp.dir\2_LinearList
+  OBJECT_DIR = CMakeFiles\LoopDLinkList.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\LoopDLinkList.cpp.dir\2_LinearList
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target List_2.cpp
+# Link build statements for EXECUTABLE target LoopDLinkList.cpp
 
 
 #############################################
-# Link the executable List_2.cpp.exe
+# Link the executable LoopDLinkList.cpp.exe
 
-build List_2.cpp.exe: CXX_EXECUTABLE_LINKER__List_2.2ecpp_Debug CMakeFiles/List_2.cpp.dir/2_LinearList/List_2.cpp.obj
+build LoopDLinkList.cpp.exe: CXX_EXECUTABLE_LINKER__LoopDLinkList.2ecpp_Debug CMakeFiles/LoopDLinkList.cpp.dir/2_LinearList/LoopDLinkList.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\List_2.cpp.dir
+  OBJECT_DIR = CMakeFiles\LoopDLinkList.cpp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = List_2.cpp.exe
-  TARGET_IMPLIB = libList_2.cpp.dll.a
-  TARGET_PDB = List_2.cpp.exe.dbg
+  TARGET_FILE = LoopDLinkList.cpp.exe
+  TARGET_IMPLIB = libLoopDLinkList.cpp.dll.a
+  TARGET_PDB = LoopDLinkList.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LoopLinkList.cpp
+
+
+#############################################
+# Order-only phony target for LoopLinkList.cpp
+
+build cmake_object_order_depends_target_LoopLinkList.cpp: phony || CMakeFiles/LoopLinkList.cpp.dir
+
+build CMakeFiles/LoopLinkList.cpp.dir/2_LinearList/LoopLinkList.cpp.obj: CXX_COMPILER__LoopLinkList.2ecpp_Debug D$:/OneDrive/Project/DataStruct/2_LinearList/LoopLinkList.cpp || cmake_object_order_depends_target_LoopLinkList.cpp
+  DEP_FILE = CMakeFiles\LoopLinkList.cpp.dir\2_LinearList\LoopLinkList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++98
+  OBJECT_DIR = CMakeFiles\LoopLinkList.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\LoopLinkList.cpp.dir\2_LinearList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LoopLinkList.cpp
+
+
+#############################################
+# Link the executable LoopLinkList.cpp.exe
+
+build LoopLinkList.cpp.exe: CXX_EXECUTABLE_LINKER__LoopLinkList.2ecpp_Debug CMakeFiles/LoopLinkList.cpp.dir/2_LinearList/LoopLinkList.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\LoopLinkList.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LoopLinkList.cpp.exe
+  TARGET_IMPLIB = libLoopLinkList.cpp.dll.a
+  TARGET_PDB = LoopLinkList.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SeqList_1.cpp
+
+
+#############################################
+# Order-only phony target for SeqList_1.cpp
+
+build cmake_object_order_depends_target_SeqList_1.cpp: phony || CMakeFiles/SeqList_1.cpp.dir
+
+build CMakeFiles/SeqList_1.cpp.dir/2_LinearList/SeqList_1.cpp.obj: CXX_COMPILER__SeqList_1.2ecpp_Debug D$:/OneDrive/Project/DataStruct/2_LinearList/SeqList_1.cpp || cmake_object_order_depends_target_SeqList_1.cpp
+  DEP_FILE = CMakeFiles\SeqList_1.cpp.dir\2_LinearList\SeqList_1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++98
+  OBJECT_DIR = CMakeFiles\SeqList_1.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\SeqList_1.cpp.dir\2_LinearList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SeqList_1.cpp
+
+
+#############################################
+# Link the executable SeqList_1.cpp.exe
+
+build SeqList_1.cpp.exe: CXX_EXECUTABLE_LINKER__SeqList_1.2ecpp_Debug CMakeFiles/SeqList_1.cpp.dir/2_LinearList/SeqList_1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SeqList_1.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SeqList_1.cpp.exe
+  TARGET_IMPLIB = libSeqList_1.cpp.dll.a
+  TARGET_PDB = SeqList_1.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SeqList_2.cpp
+
+
+#############################################
+# Order-only phony target for SeqList_2.cpp
+
+build cmake_object_order_depends_target_SeqList_2.cpp: phony || CMakeFiles/SeqList_2.cpp.dir
+
+build CMakeFiles/SeqList_2.cpp.dir/2_LinearList/SeqList_2.cpp.obj: CXX_COMPILER__SeqList_2.2ecpp_Debug D$:/OneDrive/Project/DataStruct/2_LinearList/SeqList_2.cpp || cmake_object_order_depends_target_SeqList_2.cpp
+  DEP_FILE = CMakeFiles\SeqList_2.cpp.dir\2_LinearList\SeqList_2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++98
+  OBJECT_DIR = CMakeFiles\SeqList_2.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\SeqList_2.cpp.dir\2_LinearList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SeqList_2.cpp
+
+
+#############################################
+# Link the executable SeqList_2.cpp.exe
+
+build SeqList_2.cpp.exe: CXX_EXECUTABLE_LINKER__SeqList_2.2ecpp_Debug CMakeFiles/SeqList_2.cpp.dir/2_LinearList/SeqList_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SeqList_2.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SeqList_2.cpp.exe
+  TARGET_IMPLIB = libSeqList_2.cpp.dll.a
+  TARGET_PDB = SeqList_2.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SqList_1.cpp
+
+
+#############################################
+# Order-only phony target for SqList_1.cpp
+
+build cmake_object_order_depends_target_SqList_1.cpp: phony || CMakeFiles/SqList_1.cpp.dir
+
+build CMakeFiles/SqList_1.cpp.dir/2_LinearList/SqList_1.cpp.obj: CXX_COMPILER__SqList_1.2ecpp_Debug D$:/OneDrive/Project/DataStruct/2_LinearList/SqList_1.cpp || cmake_object_order_depends_target_SqList_1.cpp
+  DEP_FILE = CMakeFiles\SqList_1.cpp.dir\2_LinearList\SqList_1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++98
+  OBJECT_DIR = CMakeFiles\SqList_1.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\SqList_1.cpp.dir\2_LinearList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SqList_1.cpp
+
+
+#############################################
+# Link the executable SqList_1.cpp.exe
+
+build SqList_1.cpp.exe: CXX_EXECUTABLE_LINKER__SqList_1.2ecpp_Debug CMakeFiles/SqList_1.cpp.dir/2_LinearList/SqList_1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SqList_1.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SqList_1.cpp.exe
+  TARGET_IMPLIB = libSqList_1.cpp.dll.a
+  TARGET_PDB = SqList_1.cpp.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2.1.cpp
@@ -437,6 +569,105 @@ build test4.cpp.exe: CXX_EXECUTABLE_LINKER__test4.2ecpp_Debug CMakeFiles/test4.c
   TARGET_PDB = test4.cpp.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 4-1.cpp
+
+
+#############################################
+# Order-only phony target for 4-1.cpp
+
+build cmake_object_order_depends_target_4-1.cpp: phony || CMakeFiles/4-1.cpp.dir
+
+build CMakeFiles/4-1.cpp.dir/Hello_Algorithom/4-1.cpp.obj: CXX_COMPILER__4-1.2ecpp_Debug D$:/OneDrive/Project/DataStruct/Hello$ Algorithom/4-1.cpp || cmake_object_order_depends_target_4-1.cpp
+  DEP_FILE = CMakeFiles\4-1.cpp.dir\Hello_Algorithom\4-1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++98
+  OBJECT_DIR = CMakeFiles\4-1.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\4-1.cpp.dir\Hello_Algorithom
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4-1.cpp
+
+
+#############################################
+# Link the executable 4-1.cpp.exe
+
+build 4-1.cpp.exe: CXX_EXECUTABLE_LINKER__4-1.2ecpp_Debug CMakeFiles/4-1.cpp.dir/Hello_Algorithom/4-1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\4-1.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 4-1.cpp.exe
+  TARGET_IMPLIB = lib4-1.cpp.dll.a
+  TARGET_PDB = 4-1.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 4-2.cpp
+
+
+#############################################
+# Order-only phony target for 4-2.cpp
+
+build cmake_object_order_depends_target_4-2.cpp: phony || CMakeFiles/4-2.cpp.dir
+
+build CMakeFiles/4-2.cpp.dir/Hello_Algorithom/4-2.cpp.obj: CXX_COMPILER__4-2.2ecpp_Debug D$:/OneDrive/Project/DataStruct/Hello$ Algorithom/4-2.cpp || cmake_object_order_depends_target_4-2.cpp
+  DEP_FILE = CMakeFiles\4-2.cpp.dir\Hello_Algorithom\4-2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++98
+  OBJECT_DIR = CMakeFiles\4-2.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\4-2.cpp.dir\Hello_Algorithom
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4-2.cpp
+
+
+#############################################
+# Link the executable 4-2.cpp.exe
+
+build 4-2.cpp.exe: CXX_EXECUTABLE_LINKER__4-2.2ecpp_Debug CMakeFiles/4-2.cpp.dir/Hello_Algorithom/4-2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\4-2.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 4-2.cpp.exe
+  TARGET_IMPLIB = lib4-2.cpp.dll.a
+  TARGET_PDB = 4-2.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 5-1.cpp
+
+
+#############################################
+# Order-only phony target for 5-1.cpp
+
+build cmake_object_order_depends_target_5-1.cpp: phony || CMakeFiles/5-1.cpp.dir
+
+build CMakeFiles/5-1.cpp.dir/Hello_Algorithom/5-1.cpp.obj: CXX_COMPILER__5-1.2ecpp_Debug D$:/OneDrive/Project/DataStruct/Hello$ Algorithom/5-1.cpp || cmake_object_order_depends_target_5-1.cpp
+  DEP_FILE = CMakeFiles\5-1.cpp.dir\Hello_Algorithom\5-1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++98
+  OBJECT_DIR = CMakeFiles\5-1.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\5-1.cpp.dir\Hello_Algorithom
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 5-1.cpp
+
+
+#############################################
+# Link the executable 5-1.cpp.exe
+
+build 5-1.cpp.exe: CXX_EXECUTABLE_LINKER__5-1.2ecpp_Debug CMakeFiles/5-1.cpp.dir/Hello_Algorithom/5-1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\5-1.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-1.cpp.exe
+  TARGET_IMPLIB = lib5-1.cpp.dll.a
+  TARGET_PDB = 5-1.cpp.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target CMakeCXXCompilerId.cpp
 
 
@@ -538,15 +769,29 @@ build 3.3_assign.cpp: phony 3.3_assign.cpp.exe
 
 build 3_char.cpp: phony 3_char.cpp.exe
 
+build 4-1.cpp: phony 4-1.cpp.exe
+
+build 4-2.cpp: phony 4-2.cpp.exe
+
 build 4_cast.cpp: phony 4_cast.cpp.exe
+
+build 5-1.cpp: phony 5-1.cpp.exe
 
 build 5_1.cpp: phony 5_1.cpp.exe
 
 build CMakeCXXCompilerId.cpp: phony CMakeCXXCompilerId.cpp.exe
 
-build List_1.cpp: phony List_1.cpp.exe
+build DLInkList.cpp: phony DLInkList.cpp.exe
 
-build List_2.cpp: phony List_2.cpp.exe
+build LoopDLinkList.cpp: phony LoopDLinkList.cpp.exe
+
+build LoopLinkList.cpp: phony LoopLinkList.cpp.exe
+
+build SeqList_1.cpp: phony SeqList_1.cpp.exe
+
+build SeqList_2.cpp: phony SeqList_2.cpp.exe
+
+build SqList_1.cpp: phony SqList_1.cpp.exe
 
 build test.cpp: phony test.cpp.exe
 
@@ -564,7 +809,7 @@ build test4.cpp: phony test4.cpp.exe
 #############################################
 # Folder: D:/OneDrive/Project/DataStruct/cmake-build-debug
 
-build all: phony test3.cpp.exe List_1.cpp.exe List_2.cpp.exe 2.1.cpp.exe 2.2.cpp.exe 3.3.cpp.exe 3.3_assign.cpp.exe test.cpp.exe 5_1.cpp.exe 3_char.cpp.exe 4_cast.cpp.exe test4.cpp.exe CMakeCXXCompilerId.cpp.exe test2.cpp.exe
+build all: phony test3.cpp.exe DLInkList.cpp.exe LoopDLinkList.cpp.exe LoopLinkList.cpp.exe SeqList_1.cpp.exe SeqList_2.cpp.exe SqList_1.cpp.exe 2.1.cpp.exe 2.2.cpp.exe 3.3.cpp.exe 3.3_assign.cpp.exe test.cpp.exe 5_1.cpp.exe 3_char.cpp.exe 4_cast.cpp.exe test4.cpp.exe 4-1.cpp.exe 4-2.cpp.exe 5-1.cpp.exe CMakeCXXCompilerId.cpp.exe test2.cpp.exe
 
 # =============================================================================
 # Built-in targets

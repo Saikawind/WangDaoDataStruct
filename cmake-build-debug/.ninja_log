@@ -15,5 +15,15 @@
 0	73	7393874410651845	CMakeFiles/test.cpp.dir/C_basic/4/test.cpp.obj	d83d3eb728ae975d
 73	141	7393874411305656	test.cpp.exe	259912686395c827
 337	577	7402330775548850	test3.cpp.exe	e4d8b15bdd7bb21d
-1	62	7402390724944988	CMakeFiles/List_1.cpp.dir/2_LinearList/List_1.cpp.obj	d3e3a66314bdaec9
-62	129	7402390725552092	List_1.cpp.exe	e7da68d05302330e
+1	66	7402483338934284	CMakeFiles/List_1.cpp.dir/2_LinearList/List_1.cpp.obj	d3e3a66314bdaec9
+67	143	7402483339627057	List_1.cpp.exe	e7da68d05302330e
+1	70	7402451456402763	CMakeFiles/List_2.cpp.dir/2_LinearList/List_2.cpp.obj	ed1ba81efec8f6ef
+70	142	7402451457075417	List_2.cpp.exe	e59ad17d67510b94
+2	127	7414590418253564	CMakeFiles/4-1.cpp.dir/Hello_Algorithom/4-1.cpp.obj	ca4af74b64c7a381
+128	199	7414590418919789	4-1.cpp.exe	bfe1d5b1e2910cf0
+2	130	7414596656895910	CMakeFiles/4-2.cpp.dir/Hello_Algorithom/4-2.cpp.obj	c14833e3d9e23150
+130	196	7414596657526150	4-2.cpp.exe	dd6826e40b958acf
+0	377	7424084059129916	CMakeFiles/SqList_1.cpp.dir/2_LinearList/SqList_1.cpp.obj	b01f1de12745ff23
+378	641	7424084061745258	SqList_1.cpp.exe	98184256fee0e90b
+1	146	7424096669900236	CMakeFiles/SeqList_2.cpp.dir/2_LinearList/SeqList_2.cpp.obj	16dd4770d69e0023
+146	225	7424096670668799	SeqList_2.cpp.exe	3d24c8dfdfd30ad7

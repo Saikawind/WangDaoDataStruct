@@ -1,0 +1,108 @@
+IF [Line Item Type] = "Usage"  AND [Usage Account Id] IN (838370026901, 893241385366, 822490508810, 982853071109, 984067711833, 347283100561, 352758117823)  THEN
+    IF [Usage Account Id] = 347283100561 OR
+      [Usage Account Id] = 352758117823
+    THEN "ChinaDevOps+RI"
+    ELSEIF [ResourceTagsUserProject] = "hgrac"
+    THEN "hgrac+RI"
+    ELSEIF [Usage Account Id] = 893241385366
+    THEN "outsystems+RI"
+    ELSEIF [Usage Account Id] = 838370026901
+    THEN "mulesoft+RI"
+    ELSEIF
+    [ResourceTagsUserProject] = "talend" OR
+    CONTAINS([ResourceId], "talend") AND (
+    [ProductCode] = "AmazonEC2" OR
+    [ProductCode] = "AmazonRDS" )
+    THEN "talend+RI"
+    ELSEIF [ResourceTagsUserProject] = "China File Integration"
+    THEN "China File Integration+RI"
+    ELSEIF [ResourceTagsUserProject] = "CIAM"
+    THEN "CIAM+RI"
+    ELSEIF [ResourceTagsUserProject] IN ("chinalz", "others", "SharedSandbox", "sharedsandbox", "chinadevops", "") OR
+      ISNULL([ResourceTagsUserProject])
+    THEN "Others+RI"
+    ELSEIF [ResourceTagsUserProject] = "diait" THEN "diait+RI"
+    ELSEIF [ResourceTagsUserProject] IN ("Solace", "solace","DIAENTAPPSharedDT01") THEN "solace+RI"
+    ELSE "Others+RI"
+    END
+ELSEIF [Line Item Type] = "Usage"
+    THEN
+    IF
+    [Usage Account Id] = 045252881470 OR
+    [Usage Account Id] = 045803050112
+    THEN "ChinaFDDIP+RI"
+    ELSEIF [Usage Account Id] = 118431981066
+    THEN "CDMIP+RI"
+    ELSEIF
+    [Usage Account Id] = 660273324175 OR
+    [Usage Account Id] = 177168874817
+    THEN "Scientific Innovation+RI"
+    ELSEIF
+    [Usage Account Id] = 90062063270
+    THEN "LabInsights+RI"
+    ELSEIF
+    [Usage Account Id] = 822490508810
+    THEN "China File Integration+RI"
+    ELSEIF  [Usage Account Id] IN (047414907120, 058989378159, 071140812397, 144026604422, 431129344532, 431206363414, 480161376217, 538413218528, 637474365421, 827809783835, 827947852098, 827963712449, 827996049672, 847302506383, 855544770660, 907794616692, 307834784563)
+    THEN "Chinalz+RI"
+    ELSEIF NOT [Usage Account Id]  IN (827947852098, 822490508810, 982853071109, 838370026901, 984067711833, 893241385366, 347283100561, 352758117823, 047414907120, 058989378159, 071140812397, 144026604422, 431129344532, 431206363414, 480161376217,538413218528, 637474365421, 827809783835, 827947852098, 827963712449, 827996049672, 847302506383, 855544770660, 907794616692, 307834784563)
+    THEN "CCAS+RI"
+    END
+ELSEIF
+([Line Item Type] = "DiscountedUsage" OR
+[Line Item Type] = "SavingsPlanCoveredUsage" OR
+[Line Item Type] = "SavingsPlanNegation") AND
+[Usage Account Id] IN (838370026901, 893241385366, 822490508810, 982853071109, 984067711833, 347283100561, 352758117823) THEN
+    IF [Usage Account Id] IN (347283100561, 352758117823) THEN
+    "ChinaDevOps+RI"
+    ELSEIF [ResourceTagsUserProject] = "hgrac"
+    THEN "hgrac+RI"
+    ELSEIF [Usage Account Id] = 893241385366
+    THEN "outsystems+RI"
+    ELSEIF [Usage Account Id] = 838370026901 THEN
+    "mulesoft+RI"
+    ELSEIF
+    [ResourceTagsUserProject] = "talend" OR(
+    CONTAINS([ResourceId], "talend") AND (
+    [ProductCode] = "AmazonEC2" OR
+    [ProductCode] = "AmazonRDS" ))
+    THEN "talend+RI"
+    ELSEIF [ResourceTagsUserProject] = "China File Integration"
+    THEN "China File Integration+RI"
+    ELSEIF [ResourceTagsUserProject] = "CIAM" THEN "CIAM+RI"
+    ELSEIF [ResourceTagsUserProject] IN ("chinalz", "others", "SharedSandbox", "sharedsandbox", "chinadevops", "") OR
+    ISNULL([ResourceTagsUserProject])
+    THEN "Others+RI"
+    ELSEIF [ResourceTagsUserProject] = "diait" THEN "diait+RI"
+    ELSEIF [ResourceTagsUserProject] IN ("Solace", "solace","DIAENTAPPSharedDT01") THEN "solace+RI"
+    ELSE
+    "Others+RI"
+    END
+ELSEIF
+([Line Item Type] = "DiscountedUsage" OR
+[Line Item Type] = "SavingsPlanCoveredUsage" OR
+[Line Item Type] = "SavingsPlanNegation" )
+THEN
+    IF
+    [Usage Account Id] = 045252881470 OR
+    [Usage Account Id] = 045803050112
+    THEN "ChinaFDDIP+RI"
+    ELSEIF [Usage Account Id] = 118431981066
+    THEN "CDMIP+RI"
+    ELSEIF
+    [Usage Account Id] = 660273324175 OR
+    [Usage Account Id] = 177168874817
+    THEN "Scientific Innovation+RI"
+    ELSEIF
+    [Usage Account Id] = 90062063270
+    THEN "LabInsights+RI"
+    ELSEIF
+    NOT [Usage Account Id] IN (827947852098, 822490508810, 982853071109, 838370026901, 984067711833, 893241385366, 347283100561, 352758117823, 047414907120, 058989378159, 071140812397, 144026604422, 431129344532, 431206363414, 480161376217, 538413218528, 637474365421, 827809783835, 827947852098, 827963712449, 827996049672, 847302506383, 855544770660, 907794616692, 307834784563)
+    THEN
+    "CCAS+RI"
+    ELSEIF
+    [Usage Account Id] IN (047414907120, 058989378159, 071140812397, 144026604422, 431129344532, 431206363414, 480161376217, 538413218528, 637474365421, 827809783835, 827947852098, 827963712449, 827996049672, 847302506383, 855544770660, 907794616692, 307834784563)
+    THEN
+    "Chinalz+RI"
+    END
+END
